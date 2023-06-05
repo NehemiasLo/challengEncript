@@ -1,0 +1,129 @@
+*{
+    background: #E5E5E5;
+    font-family: 'Prompt', sans-serif;
+    font-size: 28px;
+}
+
+
+.logo{
+    position: absolute;
+    width: 120px;
+    top: 40px;    
+    left: 40px;
+    height: 48px;   
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 70px;
+}
+
+.input-texto1{
+    border: none;
+    text-transform: lowercase;
+    margin-top: 90px;
+    color: #0A3871;
+    outline: none;
+    height: 90%;
+}
+
+::placeholder {
+    color: #0A3871; 
+  }
+
+.input-texto2{
+    background: white;
+    background-image: url(Imagenes/muneco.png);
+    background-repeat: no-repeat;
+    
+    outline: none;
+    border: none;
+    border-radius: 24px; 
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 50px;
+    padding-left: 20px;
+    position: fixed;
+    height: 80%;  
+
+}
+
+.input-texto2::placeholder {
+    color: #0A3871;       
+}
+  
+
+  .informacion{
+    color: #495057;
+    font-size: 15px;
+}
+.informacion::before{
+    content: "⚠"; 
+    margin: 0 0.5em 0 0;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    transition: 1s all;
+}
+
+.btn-desencriptar{
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+    transition: 1s all;
+    cursor: pointer;
+
+}
+
+ .btn-encriptar:hover {
+    background: #0A3871;
+    transform: scale(1.1);
+}
+.btn-desencriptar:hover, .btn-copiar:hover{
+    background: #bbc2c9;
+    transform: scale(1.1);
+}
+
+
+
+.btn-copiar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    height: 67px;
+    margin-left: 120px;
+    margin-top: 33%;
+    transition: 1s all;
+    cursor: pointer;
+    position: absolute;
+    width: 336px;
+}
+
+.copyright {
+    color: rgb(4, 4, 104);
+    font-size: 15px;
+    margin: 5px;
+
+    position: absolute;
+    width: 15%;
+    top: 850px;
+    left: 750px;
+    height: 20px;
+}
