@@ -19,37 +19,41 @@ main{
     margin-left: 70px;
 }
 
-.input-texto1{
+.entrartexto1{
     border: none;
     text-transform: lowercase;
     margin-top: 90px;
     color: #0A3871;
-    outline: none;
+ 
     height: 90%;
 }
 
 ::placeholder {
     color: #0A3871; 
   }
+.entrartexto1:focus{
+    outline: none;
+}  
 
-.input-texto2{
+.entrartexto2{
     background: white;
     background-image: url(Imagenes/muneco.png);
-    background-repeat: no-repeat;
-    
-    outline: none;
+    background-repeat: no-repeat;    
+
     border: none;
     border-radius: 24px; 
     color: #0A3871;
     margin-left: 98px;
-    margin-top: 50px;
+    margin-top: 20px;
     padding-left: 20px;
     position: fixed;
-    height: 80%;  
-
+    height: 80%; 
+}
+.entrartexto2:focus{
+    outline: none;
 }
 
-.input-texto2::placeholder {
+.entrartexto2::placeholder {
     color: #0A3871;       
 }
   
@@ -117,7 +121,7 @@ main{
 }
 
 .copyright {
-    color: rgb(4, 4, 104);
+    color: #495057;
     font-size: 15px;
     margin: 5px;
 
@@ -126,4 +130,5 @@ main{
     top: 850px;
     left: 750px;
     height: 20px;
+    font-family: 'Prompt', sans-serif;
 }

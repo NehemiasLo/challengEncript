@@ -25,23 +25,24 @@
 
         <main>  
             <section>            
-                <textarea cols="30" rows="10" class="input-texto1" placeholder="Ingresa el texto aqui"></textarea>
+                <textarea cols="30" rows="10" class="entrartexto1" placeholder="Ingresa el texto aqui"></textarea>
 
                 <div>
-                    <h6 class="informacion">Solo letras minúsculas y sin acento</h6>
+                    <h3 class="informacion">Solo letras minúsculas y sin acento</h3>
                 </div>
 
                 <div class="botones">
                     <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button> 
-                    <button class="btn-desencriptar">Desencriptar</button>
+                    <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
                 </div>                
             </section>
 
             <section>
-                <textarea cols="20" rows="10" class="input-texto2" placeholder="Ingrese el texto que desees encriptar o desencriptar"></textarea>
+                <textarea cols="20" rows="10" class="entrartexto2"></textarea>
+
 
                 <div>                   
-                    <button class="btn-copiar">Copiar</button>                    
+                    <button class="btn-copiar" onclick="copiar()">Copiar</button>                    
                 </div>
 
             </section>              
@@ -49,11 +50,10 @@
         </main>
 
         <footer> 
-            <h7 class="copyright">&copy Copyright Yamith Nehemías - 2023</h7>
+            <h5 class="copyright">&copy Copyright Yamith Nehemías - 2023</h5>
         </footer>
         
-        <script src="/script.js"></script>
-
+        <script src="script.js"></script>
     </body>
 
 </html>
