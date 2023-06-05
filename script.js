@@ -49,9 +49,13 @@ function desencriptar(stringDesencriptada) {
     return stringDesencriptada;
 }
 
-/*function copiar(){
+function copiar(){
     entrartexto2.select();
-    navigator.clipboard.writeText(entrartexto2.value):
+    navigator.clipboard.writeText(entrartexto2.value);
     entrartexto2.value = "";
-   
-}*/
+    alert("Texto Copiado");
+    
+}    
+
+
+
