@@ -53,9 +53,24 @@ function copiar(){
     entrartexto2.select();
     navigator.clipboard.writeText(entrartexto2.value);
     entrartexto2.value = "";
-    alert("Texto Copiado");
-    
+    alert("Texto Copiado");    
 }    
+
+function pegar() {
+    // Obtener el contenido del portapapeles
+    navigator.clipboard.readText()
+      .then(texto => {
+        // Obtener el elemento textarea
+        const entrartexto1 = document.querySelector('.entrartexto1');
+        // Pegar el texto en el textarea
+        entrartexto1.value = texto;
+      })
+      .catch(error => {
+        console.error('Error al leer el portapapeles:', error);
+      });
+  }
+
+
 
 
 
