@@ -17,6 +17,7 @@ main{
     display: flex;
     margin-bottom: 50px;
     margin-left: 70px;
+
 }
 
 .entrartexto1{
@@ -25,42 +26,38 @@ main{
     margin-top: 90px;
     color: #0A3871;
  
-    height: 90%;
+    width: auto;
+    outline: none;
+   
 }
 
 ::placeholder {
-    color: #0A3871; 
-  }
-.entrartexto1:focus{
-    outline: none;
-}  
+    color: #0A3871;   
+  } 
 
 .entrartexto2{
     background: white;
     background-image: url(Imagenes/muneco.png);
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat; 
+    background-position-y: 55%;  
 
     border: none;
     border-radius: 24px; 
     color: #0A3871;
-    margin-left: 98px;
+    /*margin-left: 98px;*/
     margin-top: 20px;
-    padding-left: 20px;
+    /*padding-left: 20px;*/
     position: fixed;
-    height: 80%; 
-}
-.entrartexto2:focus{
+    height: 80%;
+    width: auto; 
     outline: none;
 }
-
-.entrartexto2::placeholder {
-    color: #0A3871;       
-}
-  
 
   .informacion{
     color: #495057;
     font-size: 15px;
+    position: absolute;
+    top: 75%;
 }
 .informacion::before{
     content: "⚠"; 
@@ -69,7 +66,8 @@ main{
 
 .botones{
     display: flex;
-    margin-top: 18px;
+    margin-top: 30%;
+   
 }
 
 .btn-encriptar {
@@ -112,8 +110,8 @@ main{
     border-radius: 24px;
     color: #0A3871;
     height: 67px;
-    margin-left: 120px;
-    margin-top: 29%;
+    margin-left: 10px;
+    margin-top: 32%;
     transition: 1s all;
     cursor: pointer;
     position: absolute;
@@ -124,8 +122,8 @@ main{
     border-radius: 24px;
     color: #0A3871;
     height: 67px;
-    margin-left: 120px;
-    margin-top: 33%;
+    margin-left: 10px;
+    margin-top: 36%;
     transition: 1s all;
     cursor: pointer;
     position: absolute;
@@ -143,4 +141,40 @@ main{
     left: 750px;
     height: 20px;
     font-family: 'Prompt', sans-serif;
+}
+
+
+@media screen and (max-width:480px) {
+
+    .btn-encriptar, .btn-desencriptar {
+        width: auto;       
+    }
+
+    .btn-copiar{
+        top: 50%;
+        width: auto;
+    }
+    .btn-pegar{
+        top: 60%;
+        width: auto;
+    }
+ 
+    .entrartexto1 {
+       
+        width: auto;
+    }
+
+    .entrartexto2{
+        height: auto;
+      
+        background: auto;  
+        width: auto;    
+      
+    } 
+    .copyright { /*listo*/
+        width: 85%;
+        top: auto;
+        left: 220px;  
+    }   
+    
 }

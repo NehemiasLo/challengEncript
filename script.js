@@ -15,6 +15,7 @@ function btnEncriptar(){
     entrartexto2.value = textoEncriptado;
     entrartexto1.value = "";
     entrartexto2.style.backgroundImage = "none";
+    entrartexto2.style.placeholder = "none";
 }
 
 function encriptar(stringEncriptada) {
@@ -56,18 +57,13 @@ function copiar(){
     alert("Texto Copiado");    
 }    
 
-function pegar() {
-    // Obtener el contenido del portapapeles
+function pegar() {  
     navigator.clipboard.readText()
-      .then(texto => {
-        // Obtener el elemento textarea
-        const entrartexto1 = document.querySelector('.entrartexto1');
-        // Pegar el texto en el textarea
+      .then(texto => {       
+        const entrartexto1 = document.querySelector('.entrartexto1');       
         entrartexto1.value = texto;
       })
-      .catch(error => {
-        console.error('Error al leer el portapapeles:', error);
-      });
+
   }
 
 
