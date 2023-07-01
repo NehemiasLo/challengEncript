@@ -54,7 +54,7 @@ function copiar(){
     entrartexto2.select();
     navigator.clipboard.writeText(entrartexto2.value);
     entrartexto2.value = "";
-    alert("Texto Copiado");    
+    alert("Texto Copiado"); 
 }    
 
 function pegar() {  

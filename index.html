@@ -14,46 +14,48 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200;300&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
         
     </head>
 
-    <body>
-
-        <header>
-            <h1><img class="logo" src="Imagenes/Logo.png" alt="logo de alura"></h1>
-        </header>
-
-        <main>  
-            <section>            
-                <textarea cols="30" rows="10" class="entrartexto1" placeholder="Ingresa el texto aqui"></textarea>
-
-                <div>
-                    <h3 class="informacion">Solo letras minúsculas y sin acento</h3>
-                </div>
-
-                <div class="botones">
-                    <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button> 
-                    <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
-                </div>                
-            </section>
-
-            <section>
-                <textarea cols="20" rows="10" class="entrartexto2" placeholder="Ningun mensaje fue encontrado "></textarea> 
-
-                <div>  
-                    <button class="btn-copiar" onclick="copiar()">Copiar</button>
-                    <button class="btn-pegar" onclick="pegar()">Pegar</button>                      
-                </div>
-
-            </section>              
+    <body>       
+            <header>
+                <h1><img class="logo" src="Imagenes/Logo.png" alt="logo de alura"></h1>
+            </header>
+    
+            <main>  
+                <section>            
+                    <textarea cols="30" rows="10" class="entrartexto1" placeholder="Ingresa el texto aqui"></textarea>
+    
+                    <div>
+                        <h3 class="informacion">Solo letras minúsculas y sin acento</h3>
+                    </div>
+    
+                    <div class="botones">
+                        <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button> 
+                        <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                    </div>                
+                </section>
+    
+                <section>
+                    <textarea cols="20" rows="10" class="entrartexto2" placeholder="Ningun mensaje fue encontrado "></textarea> 
+    
+                    <div>  
+                        <button class="btn-copiar" onclick="copiar()">Copiar</button>
+                        <button class="btn-pegar" onclick="pegar()">Pegar</button>                      
+                    </div>
+    
+                </section>              
+                
+            </main>
+    
+            <footer> 
+                <h5 class="copyright">&copy Copyright Yamith Nehemías - 2023</h5>
+            </footer>
             
-        </main>
-
-        <footer> 
-            <h5 class="copyright">&copy Copyright Yamith Nehemías - 2023</h5>
-        </footer>
+            <script src="script.js"></script>
         
-        <script src="script.js"></script>
+        
     </body>
 
 </html>
