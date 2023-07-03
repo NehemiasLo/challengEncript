@@ -69,6 +69,8 @@ main{
     font-size: 15px;
     position: absolute;
     top: 70%;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
 }
 .informacion::before{
     content: "⚠"; 
@@ -214,10 +216,12 @@ main{
     top: 33%;
 }
 .informacion{
-    top: 68%;
+    top: 70%;
     left: 1%;    
     width: auto;
     font-size: 12px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
 }
 
 .copyright{
