@@ -176,7 +176,7 @@ main{
 
 .btn-encriptar {
     width: auto;
-    margin-top: 150%;
+    margin-top: 170%;
     margin-left: -28%;
      
     
@@ -184,9 +184,9 @@ main{
 
 .btn-desencriptar{
     width: auto;
-    margin-top: 150%;
+    margin-top: 170%;
    
-    ;
+    
 }
 .entrartexto1{
     border: 1px;
@@ -200,7 +200,7 @@ main{
 .entrartexto2{  
     left: 43%;
     width: 50%;
-    height: 36%; 
+    height: 42%; 
     background-position-x: -88px;   
     background-position-y: 30px; 
     border-radius: 10px; 
@@ -208,15 +208,15 @@ main{
 .btn-copiar{
     width: auto;
     left: 45%;
-    top: 33%;
+    top: 35%;
 }
 .btn-pegar{
     width: auto;
     left: 66%;
-    top: 33%;
+    top: 35%;
 }
 .informacion{
-    top: 70%;
+    top: 63%;
     left: 1%;    
     width: auto;
     font-size: 12px;
