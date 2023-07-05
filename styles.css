@@ -113,12 +113,10 @@ main{
     background: #0A3871;
     transform: scale(1.1);
 }
-.btn-desencriptar:hover, .btn-copiar:hover, .btn-pegar:hover{
+.btn-desencriptar:hover, .btn-copiar:hover{
     background: #bbc2c9;
     transform: scale(1.1);
 }
-
-
 
 .btn-copiar{
     border: 1px solid #0A3871;

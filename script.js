@@ -1,8 +1,5 @@
 const entrartexto1 = document.querySelector(".entrartexto1");
 const entrartexto2 = document.querySelector(".entrartexto2");
-const textArea = document.querySelector(".btn-copiar");
-
-
 
 
 //La letra "e" es convertida para "enter"
