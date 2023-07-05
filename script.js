@@ -58,14 +58,6 @@ function copiar(){
     alert("Texto Copiado"); 
 }    
 
-function pegar() {  
-    navigator.clipboard.readText()
-      .then(texto => {       
-        const entrartexto1 = document.querySelector('.entrartexto1');       
-        entrartexto1.value = texto;
-      })
-     
-  }
 
 
 

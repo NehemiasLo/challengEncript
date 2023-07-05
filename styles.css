@@ -133,18 +133,6 @@ main{
     width: 8%;
     
 }
-.btn-pegar{
-    border: 1px solid #0A3871;
-    border-radius: 24px;
-    color: #0A3871;
-    height: 67px;
-    margin-left: 9%;
-    margin-top: 33%;
-    transition: 1s all;
-    cursor: pointer;
-    position: absolute;
-    width: 8%;
-}
 
 .copyright {
     color: #495057;
@@ -160,15 +148,16 @@ main{
 }
 
 
-@media (max-width: 450px) {
+@media (max-width: 380px) {
 
-    *{
-        font-size: 18px;
+*{  font-size: 18px;
+
     }
+
 .titulo-principal{
-        margin: auto;
-   
+        margin: auto;   
     }
+
 .logo{
     margin: auto;
     left: -8%;
@@ -177,22 +166,18 @@ main{
 .btn-encriptar {
     width: auto;
     margin-top: 170%;
-    margin-left: -28%;
-     
-    
+    margin-left: -28%;    
 }
 
 .btn-desencriptar{
     width: auto;
-    margin-top: 170%;
-   
-    
+    margin-top: 170%;   
 }
 .entrartexto1{
     border: 1px;
     resize: none;
     position: absolute;
-    height: 32%;
+    height: 35%;
     width: 40%;  
     top: 12%;  
     left: 2%;
@@ -208,13 +193,10 @@ main{
 .btn-copiar{
     width: auto;
     left: 45%;
-    top: 35%;
+    top: 54%;
+    margin-left: 28%;
 }
-.btn-pegar{
-    width: auto;
-    left: 66%;
-    top: 35%;
-}
+
 .informacion{
     top: 63%;
     left: 1%;    
@@ -230,8 +212,77 @@ main{
     left: 1%;
     width: auto;
     font-size: 12px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
 }
 
-
-      
 } 
+
+@media screen and (max-width: 720px){
+    
+    *{
+        font-size: 18px;
+    }
+
+.titulo-principal{
+        margin: auto;
+   
+    }
+.logo{
+    margin: auto;
+    left: -8%;
+}
+
+.btn-encriptar {
+    width: auto;
+    margin-top: 170%;
+    margin-left: -28%;    
+}
+
+.btn-desencriptar{
+    width: auto;
+    margin-top: 170%;   
+}
+.entrartexto1{
+    border: 1px;
+    resize: none;
+    position: absolute;
+    height: 35%;
+    width: 40%;  
+    top: 12%;  
+    left: 2%;
+}
+.entrartexto2{  
+    left: 43%;
+    width: 50%;
+    height: 42%; 
+    background-position-x: -88px;   
+    background-position-y: 30px; 
+    border-radius: 10px; 
+}
+.btn-copiar{
+    width: auto;
+    left: 45%;
+    top: 45%;
+    margin-left: 28%;
+}
+
+.informacion{
+    top: 58%;
+    left: 1%;    
+    width: auto;
+    font-size: 12px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+.copyright{
+    top: 90%;
+    height: auto;
+    left: 1%;
+    width: auto;
+    font-size: 12px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+}
